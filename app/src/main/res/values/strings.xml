@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="search_hint">Type your search key</string>
+    <string name="news_image_desc">news_image</string>
+    <string name="details">News Details</string>
+    <string name="search">Search</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/colorPrimaryDark"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/news_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="هجوم عسكري على سد النهضة وسقوط قتلى ومصابين - Sada El-Bald صدى البلد"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_margin="@dimen/default_margin"/>
+        <ImageView
+            android:id="@+id/news_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/default_news_image_front"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:contentDescription="@string/news_image_desc" />
+
+        <TextView
+            android:id="@+id/news_source_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filgoal.com"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/default_margin"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/mid_grey"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
